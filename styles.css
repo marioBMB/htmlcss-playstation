@@ -6,7 +6,7 @@
 
 
 header {
-    height: 200px;
+    height: 120px;
 }
 
 
@@ -40,10 +40,11 @@ header {
 
 section.header-bottom {
     height: 80px;
+    background-color: white;
 }
 
 
-li.ms_dropdown a::after {
+nav li.ms_dropdown a::after {
     content:"";
     background: url("img/chevron-down-solid.svg");
     background-repeat: no-repeat;
@@ -54,7 +55,7 @@ li.ms_dropdown a::after {
     vertical-align: middle;
 }
 
-li.ms_dropdown a:hover::after {
+nav li.ms_dropdown a:hover::after {
     background: url("img/chevron-down-solid-hover.svg");
     background-repeat: no-repeat;
 }
@@ -86,4 +87,39 @@ li, button {
 button {
     padding: 0.5em 1em;
     margin: 0 0.5em;
+}
+
+body > section:first-of-type {
+    margin-top: 120px;
+
+}
+
+#returnal {
+    background-image: url(img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#returnal {
+    min-height: 600px;
+}
+
+.jumbotron {
+    position: relative;
+}
+
+.jumbotron-content {
+    position: absolute;
+    bottom: 20%;
+}
+
+.content-logo {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron-desc {
+    color: white;
 }
