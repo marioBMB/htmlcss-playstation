@@ -36,3 +36,54 @@ header {
 /* .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 } */
+
+
+section.header-bottom {
+    height: 80px;
+}
+
+
+li.ms_dropdown a::after {
+    content:"";
+    background: url("img/chevron-down-solid.svg");
+    background-repeat: no-repeat;
+    width: 0.7em;
+    height: .7em;
+    display: inline-block;
+    margin-left: .455em;
+    vertical-align: middle;
+}
+
+li.ms_dropdown a:hover::after {
+    background: url("img/chevron-down-solid-hover.svg");
+    background-repeat: no-repeat;
+}
+
+nav li:last-child {
+    margin-left: 1em;
+}
+
+li.search img{
+    width: 1.5em;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+li, button {
+    cursor: pointer;
+}
+
+.ms_btn-rounded {
+    border-radius: 40px;
+    border: none;
+}
+
+.ms_bg-dark {
+    background-color: #000;
+    color: white;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+}
