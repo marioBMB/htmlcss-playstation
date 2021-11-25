@@ -13,7 +13,7 @@
 
     <body>
 
-        <header>
+        <header class='fixed-top'>
 
             <div class="container-fluid">
 
@@ -23,29 +23,57 @@
 
                 <section class="header-bottom px-3 d-flex justify-content-between">
                     
-                    
-                    <a href="#">
-                        <img src="img/play_logo.svg" alt="">
-                    </a>
-                    
-                    <nav class="navbar navbar-expand-lg navbar-dark ms_bg_nav fixed-top">
-                        <button class="navbar-toggler ms_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon ms_bars"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="#">Contacts</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <div class="row">
+
+                        <nav class="navbar navbar-expand-lg navbar-dark ms_bg_nav fixed-top">
+                            
+                            <div class="col-lg-8">
+
+                                <a href="#"><img src="img/play_logo.svg" alt=""></a>
+                                <button class="navbar-toggler ms_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon ms_bars"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                                    <ul class="navbar-nav nav-left">
+                                        <li class="nav-item">
+                                            <a class="nav-link active text-uppercase" href="#">Giochi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Hardware</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Servizi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Novità</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Fai acquisti</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Supporto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <ul class="navbar-nav nav-left">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-uppercase" href="#">My Playstation</a>
+                                    </li>
+                                    <li>
+                                        <button>Accedi</button>
+                                    </li>
+                                    <li class='search'>
+                                        <img src="img/lens.svg" alt="">
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </nav>
+                    </div>
                 </section>
 
             </div>
