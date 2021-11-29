@@ -257,7 +257,7 @@ section.services img.content-logo {
     transition-timing-function: ease-in-out;
 }
 
-.gallery a {
+.banner-gallery a {
     text-decoration: none;
     color: #888888;
 }
@@ -292,13 +292,13 @@ a.active .thumbnail, .thumbnail:hover {
     opacity: 1 !important;
 }
 
-.gallery a.active {
+.banner-gallery a.active {
     color: black;
     display: block;
     position: relative;
 }
 
-.gallery .col.active {
+.banner-gallery .col.active {
     border-bottom: 2px solid #4095da;
 }
 
